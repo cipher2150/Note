@@ -1,32 +1,61 @@
-.navigation-container{
-    margin-top: 100px;
-    background-color: aliceblue;
-    padding: 10px;
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-.navigation{
-    padding: 5px;
+.note {
+    margin-top: 150px;
+    border: 3px solid rgb(152, 115, 60);
+    padding: 10px;
     
 }
 
-.symbol{
-    padding: 10px;
+.dot-container{
+    padding: 10px; 
+    background-color: rgb(43, 47, 47);
+    border: 3px solid red;
+}
+
+.dot{
+    padding: 8px;
     border: none;
-    margin-right: 3px;
-    background-color: brown;
     border-radius: 50%;
 }
 
+.dot1{
+    background-color: red;
+    
+}
+.dot2{
+    background-color: rgb(244, 191, 79);
+    margin-left: 4px;
+}
+.dot3{
+    background-color: green;
+    margin-left: 4px;
+}
+
 .text-area{
-    border: 2px solid black;
+    padding: 20px;
+    font-size: 23px;
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid red;
     border-radius: 10px;
-    padding: 10px;
+    background-color: rgb(224, 228, 215);
 }
 
-.custom-button{
-    width: 80px;
+.button-container{
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 5px;
+}
+.button{
+    width: 96px;
     border: none;
-    border-radius: 5px;
-    background-image: radial-gradient(rgb(210, 104, 43), yellow);
+    background-color: rgba(141, 37, 172, 0.83);
+    margin: auto;
+    padding: 6px;
+    border-radius: 10px;
+    color: white;
 }
-
