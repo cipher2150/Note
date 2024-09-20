@@ -1,0 +1,32 @@
+.navigation-container{
+    margin-top: 100px;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.navigation{
+    padding: 5px;
+    
+}
+
+.symbol{
+    padding: 10px;
+    border: none;
+    margin-right: 3px;
+    background-color: brown;
+    border-radius: 50%;
+}
+
+.text-area{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.custom-button{
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+    background-image: radial-gradient(rgb(210, 104, 43), yellow);
+}
+
