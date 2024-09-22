@@ -13,7 +13,7 @@
 .dot-container{
     padding: 10px; 
     background-color: rgb(43, 47, 47);
-    border: 3px solid red;
+    border: 3px solid rgb(10, 241, 229);
 }
 
 .dot{
@@ -44,13 +44,15 @@
     color: rgb(29, 17, 17);
     margin-top: 10px;
     width: 100%;
-    border: 2px solid red;
-    border-radius: 10px;
-    background-color: rgb(224, 228, 215);
+    border: 0.5px solid rgb(147, 207, 220);
+    border-radius: 12px;
+    border-bottom-right-radius: 20px;
+    
+    background-image: radial-gradient(#eeedeb, #e6b9a6);
 }
 
 .button-container{
-    border: 2px solid black;
+   
     padding: 5px;
     margin-top: 5px;
 }
@@ -66,30 +68,30 @@
     color: white;
 }
 
-.notes-list-container{
-    border: 2px solid black;
-    padding-top: 5px;
-    padding-bottom: 2px;
-}
+
 .notes-container{
-    border: 2px solid red;
     padding: 1px;
+    border-radius: 10px;
+    margin-top: 3px;
+    background-image: radial-gradient(rgb(237, 231, 143), white, rgb(109, 244, 241));
 }
 .notes-item{
     width: 93%;
-    border: 2px solid green;
+   margin-top: 1px;
 }
 .paragraph{
+    padding-left: 10px;
+    text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 16px;
     color: rgb(35, 71, 67);
     font-weight: 510;
-    background-color: beige;
+    
     height: 100%;
 }
 .delete-icon{
-    border: 2px solid rgb(45, 4, 194);
-    padding: 5px;
+    padding: 1px;
+    font-size: 25px;
     margin: auto;
-    color: red;
+    
 }
