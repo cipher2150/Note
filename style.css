@@ -41,14 +41,16 @@
     font-weight: 500;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(29, 17, 17);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     width: 100%;
     border: 0.5px solid rgb(147, 207, 220);
     border-radius: 12px;
     border-bottom-right-radius: 20px;
     
-    background-image: radial-gradient(#eeedeb, #e6b9a6);
+    background-image: url("card1.jpg");
+    background-size: cover;
+
 }
 
 .button-container{
@@ -73,7 +75,8 @@
     padding: 1px;
     border-radius: 10px;
     margin-top: 3px;
-    background-image: radial-gradient(rgb(237, 231, 143), white, rgb(109, 244, 241));
+    background-image: url("card3.jpg");
+    background-size: cover;
 }
 .notes-item{
     width: 93%;
@@ -83,10 +86,9 @@
     padding-left: 10px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 16px;
-    color: rgb(35, 71, 67);
+    font-size: 23px;
+    color: rgb(44, 4, 4);
     font-weight: 510;
-    
     height: 100%;
 }
 .delete-icon{
